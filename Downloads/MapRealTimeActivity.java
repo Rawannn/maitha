@@ -98,7 +98,7 @@ public class MapRealTimeActivity extends AppCompatActivity{
         sorcelon    = sharedPreferences.getString(Constants.SOURCE_CITY_LON, Constants.Riyadh_LON);
         deslat      = sharedPreferences.getString(Constants.DESTINATION_CITY_LAT, Constants.Jeddah_LAT);
         deslon      = sharedPreferences.getString(Constants.DESTINATION_CITY_LON, Constants.Jeddah_LON);
-        surce       = sharedPreferences.getString(Constants.SOURCE_CITY, "Riyadh");
+        surce       = sharedPreferences.getString(Constants.SOURCE_CITY, "Riyadh1");
         dest        = sharedPreferences.getString(Constants.DESTINATION_CITY, "Jeddah");
 
         sc.setVisibility(View.GONE);
